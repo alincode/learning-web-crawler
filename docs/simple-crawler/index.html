@@ -1,0 +1,559 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Simple Crawler 框架 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="simple-example.html" />
+    
+    
+    <link rel="prev" href="../framework.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    簡介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../politeness/">
+            
+                <a href="../politeness/">
+            
+                    
+                    注意事項
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../politeness/robots.html">
+            
+                <a href="../politeness/robots.html">
+            
+                    
+                    robots.txt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../framework.html">
+            
+                <a href="../framework.html">
+            
+                    
+                    選擇框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Simple Crawler 框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="simple-example.html">
+            
+                <a href="simple-example.html">
+            
+                    
+                    最簡單的一個範例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="event.html">
+            
+                <a href="event.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="configuration.html">
+            
+                <a href="configuration.html">
+            
+                    
+                    常用配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="fetch-condition.html">
+            
+                <a href="fetch-condition.html">
+            
+                    
+                    抓取條件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="cheerio.html">
+            
+                <a href="cheerio.html">
+            
+                    
+                    Cheer.IO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="queue.html">
+            
+                <a href="queue.html">
+            
+                    
+                    Queue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="better.html">
+            
+                <a href="better.html">
+            
+                    
+                    更好的寫法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="real-world.html">
+            
+                <a href="real-world.html">
+            
+                    
+                    真實範例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../scrapy/">
+            
+                <a href="../scrapy/">
+            
+                    
+                    Scrapy 框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../scrapy/setup.html">
+            
+                <a href="../scrapy/setup.html">
+            
+                    
+                    安裝
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../hide/">
+            
+                <a href="../hide/">
+            
+                    
+                    隱密技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../architecture/">
+            
+                <a href="../architecture/">
+            
+                    
+                    架構面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../theory/">
+            
+                <a href="../theory/">
+            
+                    
+                    爬蟲相關理論
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../theory/type.html">
+            
+                <a href="../theory/type.html">
+            
+                    
+                    爬蟲類別
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../theory/strategy.html">
+            
+                <a href="../theory/strategy.html">
+            
+                    
+                    爬蟲策略
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../theory/anti-spider.html">
+            
+                <a href="../theory/anti-spider.html">
+            
+                    
+                    防爬蟲
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../resource.html">
+            
+                <a href="../resource.html">
+            
+                    
+                    學習資源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Simple Crawler 框架</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="simple-crawler">Simple Crawler</h1>
+<blockquote>
+<p>Very straightforward, event driven web crawler. Features a flexible queue interface and a basic cache mechanism with extensible backend.</p>
+</blockquote>
+<p><img src="assets/contributors.png" alt=""></p>
+<h3 id="&#x7279;&#x8272;">&#x7279;&#x8272;</h3>
+<ul>
+<li>&#x63D0;&#x4F9B;&#x4E00;&#x500B;&#x975E;&#x5E38;&#x7C21;&#x55AE;&#x7684;&#x4E8B;&#x4EF6;&#x5C0E;&#x5411; API</li>
+<li>&#x4EE5;&#x914D;&#x7F6E;&#x70BA;&#x57FA;&#x790E;&#x5BEB;&#x5C08;&#x5C6C;&#x65BC;&#x81EA;&#x5DF1;&#x7684;&#x722C;&#x87F2;</li>
+<li>&#x81EA;&#x52D5;&#x9075;&#x5B88; robots.txt &#x8A02;&#x5B9A;&#x7684;&#x898F;&#x5247;</li>
+<li>&#x53EF;&#x5F48;&#x6027;&#x7684;&#x63A7;&#x5236; queue</li>
+<li>&#x63D0;&#x4F9B;&#x6700;&#x57FA;&#x672C;&#x7684;&#x7DB2;&#x8DEF;&#x6548;&#x80FD;&#x7D71;&#x8A08;&#x8CC7;&#x8A0A;</li>
+<li>&#x6293;&#x53D6;&#x8CC7;&#x6599;&#x6642;&#x6709;&#x7DE9;&#x885D;&#x6A5F;&#x5236;(buffers)&#xFF0C;&#x4F46;&#x4E0D;&#x5305;&#x542B;&#x63A2;&#x7D22; links &#x7684;&#x6642;&#x5019;&#x3002;</li>
+<li>12,454 downloads in the last month</li>
+</ul>
+<h3 id="&#x76F8;&#x4F9D;&#x7684;&#x6A21;&#x7D44;">&#x76F8;&#x4F9D;&#x7684;&#x6A21;&#x7D44;</h3>
+<ul>
+<li><a href="https://github.com/ashtuchkin/iconv-lite" target="_blank">iconv-lite</a>&#xFF1A;&#x8655;&#x7406;&#x7DE8;&#x78BC;&#x7684;&#x554F;&#x984C;</li>
+<li><a href="https://github.com/samclarke/robots-parser" target="_blank">robots-parser</a>&#xFF1A;&#x5206;&#x6790; robots.txt</li>
+<li><a href="https://github.com/medialize/URI.js" target="_blank">urijs</a>&#xFF1A;working with URLs</li>
+</ul>
+<!--
+
+### 下載條件
+
+### 佇列 (queue)
+
+### Cookies
+
+### Link Discovery
+
+### 錯誤排解 (FAQ / Troubleshooting)
+
+-->
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../framework.html" class="navigation navigation-prev " aria-label="Previous page: 選擇框架">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="simple-example.html" class="navigation navigation-next " aria-label="Next page: 最簡單的一個範例">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Simple Crawler 框架","level":"1.4","depth":1,"next":{"title":"最簡單的一個範例","level":"1.4.1","depth":2,"path":"simple-crawler/simple-example.md","ref":"simple-crawler/simple-example.md","articles":[]},"previous":{"title":"選擇框架","level":"1.3","depth":1,"path":"framework.md","ref":"framework.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"simple-crawler/README.md","mtime":"2021-02-25T00:51:30.884Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-25T00:52:07.229Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
